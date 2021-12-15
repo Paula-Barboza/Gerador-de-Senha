@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+
+
+*{
+    font-size: 25px;   
+    font-style: bold; 
+}
+
+.gerar {
+    font-family: 'Josefin Sans', sans-serif;  
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 50px;
+    
+    text-shadow: -1px -1px 0px rgb(98, 224, 247),
+    3px 3px 0px rgba(241, 136, 255, 0.973),
+    6px 6px 0px rgb(178, 110, 255);
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgb(139, 204, 230), rgb(212, 127, 212));
+    display: flex;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.corpo-senha {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.quantidade {
+    width: 12%;
+    height: 10%;
+    border: none;
+    border-radius: 7%;
+    box-shadow: 10px 5px 5px rgba(49, 49, 49, 0.411);
+
+}
+
+.span {
+    width: 50%;
+    height: 5%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffff;
+    
+    text-shadow: 2px 2px 2px rgba(77, 57, 88, 0.993) ;
+    box-shadow: 10px 5px 5px rgb(49, 49, 49);
+}
+
+
+button {
+    padding: 5px 1rem;
+    margin-top: 1rem ;
+    font-style: bold;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(170, 110, 165, 0.664);
+    box-shadow: 10px 5px 5px rgb(49, 49, 49);
+    text-shadow: 2px 2px 3px rgba(216, 234, 236, 0.993) ;
+    
+    
+    transition-duration: 1.5s;
+}
+
+button:hover,
+button:focus{
+    background-color: rgb(168, 217, 240);
+    text-shadow: 2px 2px 3px rgba(106, 43, 131, 0.993) ;
+}
+
+.psw {
+    height: 440px;
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.61);
+    background-image: linear-gradient(to right, rgb(139, 204, 230), rgb(212, 127, 212))
+    
+}
+
+
+

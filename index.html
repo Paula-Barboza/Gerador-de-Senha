@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerador de Senhas</title>
+
+</head>
+
+<body>
+      
+    <fieldset class="corpo-senha">
+            <h1 class="gerar">Gerador de Senhas</h1>
+            <br>
+        <div class="psw">
+            <div class="config">
+                <label for="len">Quantidade de Caracteres na Senha</label>
+                <input type="number" id="len" value="15" min="4" max="30" class="quantidade">
+            </div>
+            <br>
+                    
+            <div class="config">
+                <label for="upper">Adicionar letras Maiúsculas</label>
+                <input type="checkbox" id="upper">
+            </div>
+            <br>
+                
+            <div class="config">
+                <label for="lower">Adicionar letras Minúsculas</label>
+                <input type="checkbox" id="lower">
+            </div>
+            <br>
+            
+            <div class="config">
+                <label for="number"> Adicionar Números</label>
+                <input type="checkbox" id="number">
+            </div>
+            <br>
+                        
+            <div class="config">
+                <label for="symbol">Adicionar Símbolos</label>
+                <input type="checkbox" id="symbol">
+            </div>
+         <br>
+            
+        <div class="idk">
+            <div class="ale">
+            <span class="span" id="ih">!@#$fv</span>
+            <button id="copy">Copiar</button>
+        </div>
+        <br>
+        </div>
+            <button class="gerador" id="generate">Gerar Senha</button>
+        </div>
+    </div>
+ 
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
